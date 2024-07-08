@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use App\Models\Task;
-use App\Models\TaskList;
+use App\Models\Tasklist;
 use App\Models\Users_Tasklists;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -31,29 +31,29 @@ class DatabaseSeeder extends Seeder {
             'email' => 'peach@example.com',
         ]);
 
-        TaskList::factory()->create([
+        Tasklist::factory()->create([
             'name' => 'Inbox',
         ]);
-        TaskList::factory()->create([
+        Tasklist::factory()->create([
             'name' => 'Inbox',
         ]);
-        TaskList::factory()->create([
+        Tasklist::factory()->create([
             'name' => 'Inbox',
         ]);
 
-        TaskList::factory()->create([
+        Tasklist::factory()->create([
             'name' => 'Sacar los fantasmas de Mansión de Luigi',
         ]);
 
-        TaskList::factory()->create([
+        Tasklist::factory()->create([
             'name' => 'Salvar a la Princesa Peach de bowser (otra vez)',
         ]);
 
-        TaskList::factory()->create([
+        Tasklist::factory()->create([
             'name' => 'Conseguir novia',
         ]);
 
-        TaskList::factory()->create([
+        Tasklist::factory()->create([
             'name' => 'Governar el reino champiñón',
         ]);
 
